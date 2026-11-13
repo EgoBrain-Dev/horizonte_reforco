@@ -1,0 +1,7 @@
+id,data,cliente_id,valor_mzn,estado
+L001,2026-05-02,C01,15000,pago
+L002,2026-05-03,C02,8000,em_atraso
+L003,2026-05-05,C03,22000,pago
+L004,2026-05-06,C01,5000,em_atraso
+L005,2026-05-09,C02,12000,pago
+L006,2026-05-10,C03,9000,em_atraso
