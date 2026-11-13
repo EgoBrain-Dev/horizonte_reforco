@@ -1,0 +1,24 @@
+[project]
+name = "horizonte-reforco"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "EgoBrain", email = "230841427+EgoBrain-Dev@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "tabulate>=0.10.0",
+]
+
+[project.scripts]
+horizonte-reforco = "horizonte_reforco:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
